@@ -60,7 +60,6 @@ char grades[13];
     for(int i=0;i<num_courses;i++)
         sumgrade+=(getV(grades[i])*n[i]);
   float CGPA = sumgrade/totalcredit;
-  printf("Your total CGPA for this semester is %f\n", CGPA);
   if(CGPA>=4.5)
   {
       printf("CONGRATS SCHOLAR, YOU ARE A FIRST CLASS CANDIDATE!\n");
